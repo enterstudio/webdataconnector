@@ -15,7 +15,9 @@
     "unit:coverage": "node_modules/.bin/nyc --check-coverage --lines 70 --functions 70 --branch 70 npm run unit",
     "unit:coveralls": "node_modules/.bin/nyc --reporter=text-lcov --check-coverage --lines 70 --functions 70 --branch 70 npm run unit | coveralls",
     "test": "node node_modules/npm-run-all/bin/npm-run-all end-to-end unit:coverage",
-    "test:travis": "node node_modules/npm-run-all/bin/npm-run-all unit:coveralls end-to-end"
+    "test:travis": "node node_modules/npm-run-all/bin/npm-run-all unit:coveralls end-to-end",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -65,7 +67,8 @@
   "dependencies": {
     "corsproxy": "^1.4.0",
     "http-server": "^0.9.0",
-    "npm-run-all": "^2.1.1"
+    "npm-run-all": "^2.1.1",
+    "snyk": "^1.83.0"
   },
   "nyc": {
     "include": [
@@ -78,5 +81,6 @@
     "extension": [
       ".jsx"
     ]
-  }
+  },
+  "snyk": true
 }

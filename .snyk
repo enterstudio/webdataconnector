@@ -1,0 +1,148 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - corsproxy > hapi > catbox > joi > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > good > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > good > joi > topo > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > good > wreck > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > good > wreck > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > good-console > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > good-console > good-squeeze > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > h2o2 > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > h2o2 > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > h2o2 > joi > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > h2o2 > joi > topo > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > h2o2 > wreck > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > h2o2 > wreck > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > inert > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > inert > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > inert > ammo > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > inert > ammo > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > inert > joi > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > inert > joi > topo > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > vision > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > vision > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > vision > joi > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > vision > joi > topo > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > catbox-memory > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > accept > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > accept > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > ammo > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > ammo > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > call > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > call > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > cryptiles > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > catbox > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > catbox > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > good > joi > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > catbox > joi > topo > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > kilt > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > mimos > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > joi > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > joi > topo > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > heavy > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > heavy > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > heavy > joi > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > heavy > joi > topo > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > shot > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > iron > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > iron > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > iron > cryptiles > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > topo > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > statehood > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > statehood > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > statehood > joi > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > statehood > joi > topo > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > statehood > cryptiles > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > statehood > iron > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > statehood > iron > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > statehood > iron > cryptiles > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > subtext > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > subtext > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > subtext > wreck > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > subtext > wreck > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > subtext > content > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > subtext > content > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > subtext > pez > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > subtext > pez > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > subtext > pez > b64 > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > subtext > pez > content > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > subtext > pez > content > boom > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > subtext > pez > nigel > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
+    - corsproxy > hapi > subtext > pez > nigel > vise > hoek:
+        patched: '2018-06-18T23:54:30.255Z'
